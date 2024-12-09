@@ -27,6 +27,7 @@ use Throwable;
  */
 trait ResourceModelQuery
 {
+    /** @var TModel|null $item */
     protected ?Model $item = null;
 
     protected array $with = [];
@@ -102,6 +103,9 @@ trait ResourceModelQuery
         return $this->getModel()->newQuery();
     }
 
+    /**
+    * @return TModel|null
+    */
     public function getItem(): ?Model
     {
         if (! is_null($this->item)) {

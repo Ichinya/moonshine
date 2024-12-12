@@ -36,11 +36,11 @@ Everything is already ready for use in your projects, documentation has been cre
 I invite interested users to use and develop Moonshine together.
 
 <p align="center">
-<img src="https://moonshine-laravel.com/screenshots/main.png?v=2.0" alt="Main">
+<img src="https://moonshine-laravel.com/images/main.png?v=3.0" alt="Main">
 </p>
 
 <p align="center">
-<img src="https://moonshine-laravel.com/screenshots/login.png?v=2.0" alt="Login">
+<img src="https://moonshine-laravel.com/images/login.png?v=3.0" alt="Login">
 </p>
 
 ## Contributing

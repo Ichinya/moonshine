@@ -85,6 +85,11 @@ export function moonShineRequest(
     return
   }
 
+  if(!window.navigator.onLine) {
+    MoonShine.ui.toast('Network Error', 'error')
+    return
+  }
+
   if (!(componentRequestData instanceof ComponentRequestData)) {
     componentRequestData = new ComponentRequestData()
   }
@@ -176,6 +181,7 @@ export function moonShineRequest(
 
       if (!errorResponse?.response?.data) {
         console.error(errorResponse)
+        MoonShine.ui.toast('Unknown Error', 'error')
 
         return
       }

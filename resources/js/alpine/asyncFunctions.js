@@ -86,6 +86,7 @@ export function moonShineRequest(
   }
 
   if(!window.navigator.onLine) {
+    t.loading = false
     MoonShine.ui.toast('Network Error', 'error')
     return
   }
